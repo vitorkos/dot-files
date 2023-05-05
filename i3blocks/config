@@ -1,0 +1,21 @@
+# i3blocks configuration file
+#
+#     https://vivien.github.io/i3blocks
+
+# Global properties
+
+separator=true
+separator_block_width=15
+
+#config dont work
+[battery]
+command=~/.config/i3/i3blocks/battery/battery
+interval=30
+LABEL=BAT
+#LABEL=⚡
+#BAT_NUMBER=0
+
+[time]
+command=date '+%d/%m/%Y | %H:%M:%S  '
+interval=1
+
